@@ -1,0 +1,27 @@
+/* Carousel.css */
+.carousel-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+
+.carousel {
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  left: 0;
+  will-change: transform;
+  overflow: hidden;
+}
+
+/* Hide scrollbar */
+.carousel-container::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

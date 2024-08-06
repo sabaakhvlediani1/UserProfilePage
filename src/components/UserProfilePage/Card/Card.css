@@ -1,0 +1,63 @@
+/* Card.css */
+.card {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    min-width: 200px;
+    background-color: #94a3b8; /* Equivalent to bg-slate-400 */
+    border-radius: 0.75rem; /* Equivalent to rounded-xl */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay-bg {
+    position: absolute;
+    background-color: black;
+    pointer-events: none;
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .overlay-text {
+    background-color: white;
+    font-weight: 600; /* Equivalent to font-semibold */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    z-index: 10;
+    padding: 0.5rem 0.75rem; /* Equivalent to px-3 py-2 */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    display: flex;
+    align-items: center;
+    gap: 0.5ch;
+    cursor: pointer;
+  }
+  
+  .overlay-text:hover {
+    opacity: 0.75;
+  }
+  
+  .arrow-icon {
+    height: 1rem; /* Equivalent to h-4 */
+    width: 1rem; /* Equivalent to w-4 */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.75rem; /* Equivalent to rounded-xl */
+  }
+  
