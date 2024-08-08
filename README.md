@@ -1,4 +1,4 @@
-# User Card App
+# User Profile App
 
 A React application for creating and managing a personal "User Profile App" page where users can showcase their portfolio, services, and contact information. The app features animated transitions using Framer Motion.
 
